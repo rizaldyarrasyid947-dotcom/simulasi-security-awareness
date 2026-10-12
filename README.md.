@@ -1,0 +1,36 @@
+# Simulasi Security Awareness
+
+## Deskripsi
+
+Simulasi Security Awareness adalah aplikasi berbasis web yang dibuat untuk membantu meningkatkan kesadaran pengguna terhadap ancaman phishing dan keamanan digital.
+
+## Tujuan Proyek
+
+Proyek ini dibuat sebagai sarana pembelajaran mengenai keamanan digital, khususnya pengenalan risiko phishing melalui simulasi yang bersifat edukatif.
+
+## Teknologi yang Digunakan
+
+* PHP
+* Laravel
+* Database
+
+## Fitur Utama
+
+* Simulasi phishing untuk tujuan edukasi keamanan digital.
+* Alur simulasi berbasis web.
+* Pengelolaan data hasil simulasi.
+
+## Cara Menjalankan
+
+1. Clone atau unduh repositori ini.
+2. Masuk ke folder proyek.
+3. Jalankan `composer install`.
+4. Salin `.env.example` menjadi `.env`.
+5. Sesuaikan konfigurasi database pada file `.env`.
+6. Jalankan `php artisan key:generate`.
+7. Jalankan migrasi database dengan `php artisan migrate` jika migrasi proyek sudah tersedia.
+8. Jalankan aplikasi menggunakan `php artisan serve`.
+
+## Catatan Keamanan
+
+Aplikasi ini ditujukan untuk edukasi dan simulasi keamanan digital. Pengujian harus dilakukan dengan izin yang sesuai dan tidak digunakan untuk mengumpulkan kata sandi asli pengguna.
